@@ -6,7 +6,7 @@
 .header__container {
   display: flex;
   justify-content: space-between;
-  width: 1454px;
+  max-width: 1454px;
   margin-bottom: 57px;
 
   .header__logo {
@@ -17,13 +17,13 @@
     padding-left: 20px;
   }
   .button--mail {
-    width: 136px;
+    max-width: 136px;
   }
 }
 
 .nav__list {
   display: flex;
-  width: 583px;
+  max-width: 583px;
 
   .nav__link {
     padding-right: 40px;

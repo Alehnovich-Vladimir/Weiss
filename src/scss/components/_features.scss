@@ -5,13 +5,14 @@
 .features__container {
   display: flex;
   flex-direction: column;
-  width: 1216px;
+  max-width: 1216px;
   margin: 0 auto;
 }
 
 .features__header {
-  width: 480px;
+  max-width: 480px;
   margin-bottom: 80px;
+
   .features__title {
     padding-bottom: 16px;
     font-size: 24px;
@@ -35,8 +36,13 @@
 .feature {
   display: flex;
   flex-direction: column;
-  width: 312px;
+  max-width: 312px;
   height: 605px;
+
+  .feature__image {
+    max-width: 100%;
+  }
+
   .feature__title {
     padding-top: 24px;
     padding-bottom: 24px;

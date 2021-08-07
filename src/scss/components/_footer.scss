@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 1216px;
+  max-width: 1216px;
   margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .footer__address {
-  width: 109px;
+  max-width: 109px;
   margin-left: 144px;
   .footer__title {
     padding: 64px 0 8px 0;
@@ -52,7 +52,7 @@
 }
 
 .footer__line {
-  width: 100%;
+  max-width: 100%;
   padding-top: 64px;
 }
 

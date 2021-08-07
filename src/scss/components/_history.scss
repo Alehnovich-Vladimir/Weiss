@@ -1,12 +1,12 @@
 .history__container {
   display: flex;
-  width: 1216px;
+  max-width: 1216px;
   margin: 0 auto;
 }
 
 .history__content {
   position: relative;
-  width: 1009px;
+  max-width: 1009px;
   margin-bottom: 256px;
   background: #2d2d2d;
   color: #ffffff;
@@ -26,7 +26,7 @@
     font-weight: bold;
   }
   .history__text {
-    width: 422px;
+    max-width: 422px;
     font-size: 16px;
     line-height: 26px;
     padding-bottom: 56px;
@@ -34,7 +34,7 @@
 }
 
 .history__content-info {
-  width: 590px;
+  max-width: 590px;
   padding: 98px 0 74px 98px;
 
   .history__line:after {
@@ -47,7 +47,7 @@
   }
   .history__link {
     position: relative;
-    width: 152px;
+    max-width: 152px;
     padding-right: 35px;
     font-style: normal;
     font-weight: 500;
@@ -82,7 +82,7 @@
 
 .history__image {
   position: absolute;
-  width: 488px;
+  max-width: 100%;
   top: 208px;
   left: 608px;
 }
