@@ -1,12 +1,12 @@
 .history__container {
   display: flex;
-  max-width: 1216px;
+  width: 1216px;
   margin: 0 auto;
 }
 
 .history__content {
   position: relative;
-  max-width: 1009px;
+  width: 1009px;
   margin-bottom: 256px;
   background: #2d2d2d;
   color: #ffffff;
@@ -34,7 +34,7 @@
 }
 
 .history__content-info {
-  max-width: 590px;
+  width: 590px;
   padding: 98px 0 74px 98px;
 
   .history__line:after {
@@ -47,7 +47,7 @@
   }
   .history__link {
     position: relative;
-    max-width: 152px;
+    width: 152px;
     padding-right: 35px;
     font-style: normal;
     font-weight: 500;
