@@ -1,5 +1,5 @@
 .contacts {
-  background: #f5f8fa;
+  background: $color_5;
 }
 
 .contacts__container {
@@ -19,22 +19,22 @@
     padding-bottom: 16px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: $sub;
     font-weight: bold;
     line-height: 20px;
-    color: #929a9f;
+    color: $color_4;
   }
   .contacts__title {
     padding-bottom: 24px;
-    font-size: 32px;
+    font-size: $h2;
     font-weight: bold;
     line-height: 44px;
-    color: #263640;
+    color: $color_2;
   }
   .contacts__text {
-    font-size: 16px;
+    font-size: $text;
     line-height: 28px;
-    color: #929a9f;
+    color: $color_4;
     padding-bottom: 32px;
   }
   .contacts__button:before {

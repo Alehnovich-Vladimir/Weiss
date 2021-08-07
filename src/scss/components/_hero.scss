@@ -15,50 +15,50 @@
     padding-bottom: 15px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: $sub;
     font-weight: bold;
     line-height: 20px;
-    color: #929a9f;
+    color: $color_4;
   }
-  h2 {
+  .hero__title {
     padding-bottom: 15px;
-    font-size: 32px;
+    font-size: $h2;
     font-weight: bold;
     line-height: 45px;
-    color: #263640;
+    color: $color_2;
   }
-  p {
-    font-size: 16px;
+  .hero__text {
+    font-size: $text;
     font-weight: 500;
     line-height: 28px;
-    color: #929a9f;
+    color: $color_4;
     padding-bottom: 44px;
   }
   .hero__button {
     width: 209px;
-  }
 
-  .hero__button:before {
-    content: "";
-    position: absolute;
-    top: calc(50% - 2.5px);
-    right: 12px;
-    width: 8px;
-    height: 2px;
-    background: #ffffff;
-    border-radius: 2px;
-    transform: rotate(45deg);
-  }
-  .hero__button:after {
-    content: "";
-    position: absolute;
-    top: calc(50% + 2.5px);
-    right: 12px;
-    width: 8px;
-    height: 2px;
-    background: #ffffff;
-    border-radius: 2px;
-    transform: rotate(-45deg);
+    &:before {
+      content: "";
+      position: absolute;
+      top: calc(50% - 2.5px);
+      right: 12px;
+      width: 8px;
+      height: 2px;
+      background: $color_1;
+      border-radius: 2px;
+      transform: rotate(45deg);
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: calc(50% + 2.5px);
+      right: 12px;
+      width: 8px;
+      height: 2px;
+      background: $color_1;
+      border-radius: 2px;
+      transform: rotate(-45deg);
+    }
   }
 }
 
