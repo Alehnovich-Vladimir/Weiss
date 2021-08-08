@@ -2,6 +2,7 @@
 @import "../scss/global/nullstyle";
 @import "../scss/global/font";
 @import "../scss/global/variables";
+@import "../scss/global/mixins";
 @import "../scss/components/header";
 @import "../scss/components/hero";
 @import "../scss/components/features";
@@ -24,6 +25,112 @@
   letter-spacing: 1.2px;
   font-size: $text;
   line-height: 40px;
-  color: #ffffff;
-  background: #ff9900;
+  color: $color_1;
+  background: $color_3;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 20px 10px;
+  }
+  .header__container {
+    justify-content: space-around;
+    max-width: 960px;
+    margin-bottom: 0;
+  }
+
+  .button--mail {
+    left: 1000px;
+    margin-top: 57px;
+  }
+
+  .hero {
+    margin-left: 20px;
+  }
+
+  .hero__container {
+    max-width: 960px;
+    justify-content: space-around;
+  }
+
+  .hero__image {
+    max-width: 450px;
+    height: auto;
+    padding-left: 80px;
+  }
+
+  .features {
+    margin-left: 20px;
+  }
+
+  .features__container {
+    max-width: 960px;
+  }
+
+  .feature__image {
+    padding-right: 20px;
+  }
+
+  .features__header {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    .features__title {
+      text-align: center;
+    }
+    .features__text {
+      text-align: center;
+    }
+  }
+
+  .history {
+    margin-left: 20px;
+  }
+
+  .history__container {
+    max-width: 960px;
+    padding: 0 20px;
+  }
+
+  .history__content {
+    width: 800px;
+  }
+
+  .history__image {
+    width: 50%;
+    top: 104px;
+    left: 540px;
+  }
+
+  .articles {
+    margin-left: 20px;
+  }
+
+  .articles__container {
+    max-width: 960px;
+    padding: 40px 10px 20px 80px;
+  }
+
+  .articles__body {
+    padding-bottom: 150px;
+  }
+
+  .contacts {
+    margin-left: 20px;
+  }
+
+  .contacts__container {
+    min-width: 960px;
+  }
+
+  .contacts__info {
+    padding-left: 20px;
+    justify-content: start;
+  }
+
+  .footer {
+    margin-left: 20px;
+  }
+  .footer__container {
+    max-width: 960px;
+  }
 }
