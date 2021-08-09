@@ -29,25 +29,31 @@
 .nav__list {
   display: flex;
   width: 583px;
-
-  .nav__link {
-    padding-right: 40px;
-    font-size: $text;
-    font-weight: bold;
-    line-height: 40px;
-    color: $color_2;
-  }
-  .nav__link--active {
-    padding-right: 20px;
-    padding-left: 15px;
-    margin-right: 10px;
-    color: $color_3;
-    border-bottom: 2px solid $color_3;
-  }
-  .down {
-    font-size: 10px;
-  }
 }
+
+.nav__link {
+  font-size: $text;
+  font-weight: bold;
+  line-height: 40px;
+  color: $color_2;
+}
+
+.nav__link:not(:last-child) {
+  padding-right: 40px;
+}
+
+.nav__link--active {
+  padding-right: 20px;
+  padding-left: 15px;
+  margin-right: 10px;
+  color: $color_3;
+  border-bottom: 2px solid $color_3;
+}
+
+.down {
+  font-size: 10px;
+}
+
 /*
 @media (max-width: 1400px) {
   .header {
