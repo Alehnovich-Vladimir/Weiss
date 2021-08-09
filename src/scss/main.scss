@@ -50,13 +50,7 @@
 
   .hero__container {
     max-width: 960px;
-    justify-content: space-around;
-  }
-
-  .hero__image {
-    max-width: 450px;
-    height: auto;
-    padding-left: 80px;
+    margin-right: 20px;
   }
 
   .features {
@@ -120,6 +114,7 @@
 
   .contacts__container {
     min-width: 960px;
+    margin-right: 20px;
   }
 
   .contacts__info {
@@ -127,9 +122,6 @@
     justify-content: start;
   }
 
-  .footer {
-    margin-left: 20px;
-  }
   .footer__container {
     max-width: 960px;
   }
