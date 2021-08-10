@@ -5,8 +5,6 @@
 .features__container {
   display: flex;
   flex-direction: column;
-  max-width: 1216px;
-  margin: 0 auto;
 }
 
 .features__header {
@@ -14,48 +12,55 @@
   margin-bottom: 80px;
 
   .features__title {
-    padding-bottom: 16px;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     line-height: 44px;
     color: $color_2;
+    padding-bottom: 16px;
   }
   .features__text {
     font-size: $text;
     line-height: 28px;
     color: $color_4;
   }
+  @include xl {
+    max-width: 340px;
+    margin-bottom: 40px;
+  }
 }
 
 .features__list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 160px;
+  margin-bottom: 168px;
+
+  @include xl {
+    margin-bottom: 84px;
+  }
 }
 
 .feature {
   display: flex;
   flex-direction: column;
   max-width: 312px;
-  height: 605px;
 
   .feature__image {
     max-width: 100%;
+    padding-bottom: 24px;
   }
 
   .feature__title {
-    padding-top: 24px;
-    padding-bottom: 24px;
     font-weight: bold;
     font-size: $h3;
     color: $color_2;
     line-height: 30px;
+    padding-bottom: 24px;
   }
   .feature__text {
-    padding-bottom: 24px;
     font-size: $text;
     line-height: 28px;
     color: $color_4;
+    padding-bottom: 24px;
   }
   .feature__link {
     position: relative;

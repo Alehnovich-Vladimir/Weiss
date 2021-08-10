@@ -1,6 +1,4 @@
 .articles__container {
-  max-width: 1216px;
-  margin: 0 auto;
 }
 
 .articles__header {
@@ -57,7 +55,6 @@
 }
 
 .articles__body {
-  max-width: 1216px;
   padding-bottom: 323px;
 
   .articles__subtitle {
@@ -78,23 +75,22 @@
     display: flex;
     flex-direction: column;
     max-width: 361px;
-    padding-right: 20px;
     padding-top: 32px;
 
     .article__title {
-      padding-bottom: 20px;
       font-style: normal;
       font-weight: bold;
       font-size: $h3;
       line-height: 30px;
       color: $color_2;
+      padding-bottom: 20px;
     }
     .article__text {
-      padding-bottom: 20px;
       font-size: $text;
       font-weight: 500;
       line-height: 28px;
       color: $color_4;
+      padding-bottom: 20px;
     }
     .article__link {
       position: relative;
@@ -106,9 +102,6 @@
       line-height: 28px;
       color: $color_3;
     }
-  }
-  .article:last-child {
-    padding-right: 0;
   }
 }
 

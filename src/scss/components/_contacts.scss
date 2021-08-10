@@ -5,8 +5,6 @@
 .contacts__container {
   display: flex;
   justify-content: space-between;
-  max-width: 1216px;
-  margin: 0 auto;
 }
 
 .contacts__info {
@@ -16,20 +14,20 @@
   max-width: 328px;
 
   .contacts__subtitle {
-    padding-bottom: 16px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-size: $sub;
     font-weight: bold;
     line-height: 20px;
     color: $color_4;
+    padding-bottom: 16px;
   }
   .contacts__title {
-    padding-bottom: 24px;
     font-size: $h2;
     font-weight: bold;
     line-height: 44px;
     color: $color_2;
+    padding-bottom: 24px;
   }
   .contacts__text {
     font-size: $text;
@@ -62,8 +60,10 @@
 }
 
 .contacts__image {
-  display: flex;
-  max-width: 100%;
+  width: 100%;
+  max-width: 728px;
+  min-width: 320px;
   margin-top: -123px;
   margin-bottom: 116px;
+  filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.2));
 }

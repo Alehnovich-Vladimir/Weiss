@@ -1,0 +1,39 @@
+html {
+  font-size: 10px;
+}
+
+.wrapper {
+  max-width: 1920px;
+  font-family: "DIN Pro";
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+
+  @include xl {
+    max-width: 960px;
+  }
+  @include lg {
+    max-width: 740px;
+  }
+  @include md {
+    max-width: 560px;
+  }
+  @include sm {
+    max-width: 90%;
+  }
+}
+
+.button {
+  position: relative;
+  width: 135px;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  font-size: $text;
+  line-height: 40px;
+  color: $color_1;
+  background: $color_3;
+}

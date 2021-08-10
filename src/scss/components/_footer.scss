@@ -1,4 +1,5 @@
 .footer {
+  width: 100%;
   background: $color_2;
   color: $color_1;
 }
@@ -7,8 +8,6 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1216px;
-  margin: 0 auto;
 }
 
 .footer__logo {
@@ -21,14 +20,14 @@
 }
 
 .footer__author {
-  width: 157px;
+  max-width: 157px;
 
   .footer__title {
-    padding: 64px 0 8px 0;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    padding: 64px 0 8px 0;
   }
   .footer__text {
     font-size: $text;
@@ -37,8 +36,8 @@
 }
 
 .footer__address {
-  width: 109px;
-  margin-left: 144px;
+  max-width: 109px;
+  margin-left: 145px;
 
   .footer__title {
     padding: 64px 0 8px 0;
@@ -54,7 +53,7 @@
 }
 
 .footer__line {
-  width: 1216px;
+  min-width: 1216px;
   padding-top: 64px;
 
   &:after {
@@ -74,7 +73,4 @@
   line-height: 18px;
   color: $color_1;
   opacity: 0.5;
-  span {
-    padding-right: 9px;
-  }
 }
