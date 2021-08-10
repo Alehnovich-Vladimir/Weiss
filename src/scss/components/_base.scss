@@ -7,6 +7,19 @@ html {
   font-family: "DIN Pro";
 }
 
+.button {
+  position: relative;
+  width: 135px;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  font-size: $text;
+  line-height: 40px;
+  color: $color_1;
+  background: $color_3;
+}
+
 .container {
   max-width: 1216px;
   margin: 0 auto;
@@ -23,17 +36,4 @@ html {
   @include sm {
     max-width: 90%;
   }
-}
-
-.button {
-  position: relative;
-  width: 135px;
-  padding: 0px 16px;
-  text-decoration: none;
-  font-weight: bold;
-  letter-spacing: 1.2px;
-  font-size: $text;
-  line-height: 40px;
-  color: $color_1;
-  background: $color_3;
 }

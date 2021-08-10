@@ -1,6 +1,3 @@
-.articles__container {
-}
-
 .articles__header {
   display: flex;
   justify-content: space-between;
@@ -39,6 +36,10 @@
   flex-direction: column;
   max-width: 488px;
 
+  @include xl {
+    max-width: 430px;
+  }
+
   .articles__title {
     font-size: $h2;
     line-height: 45px;
@@ -56,6 +57,10 @@
 
 .articles__body {
   padding-bottom: 323px;
+
+  @include xl {
+    padding-bottom: 250px;
+  }
 
   .articles__subtitle {
     letter-spacing: 0.1em;
@@ -76,6 +81,10 @@
     flex-direction: column;
     max-width: 361px;
     padding-top: 32px;
+
+    @include xl {
+      max-width: 305px;
+    }
 
     .article__title {
       font-style: normal;
