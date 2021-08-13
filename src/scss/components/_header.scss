@@ -14,16 +14,35 @@
   @include xl {
     margin-bottom: 48px;
   }
+
+  @include lg {
+    margin: 0 auto;
+    margin-bottom: 38px;
+  }
+
+  @include md {
+    flex-direction: column;
+  }
 }
 
 .header__logo {
   @include xl {
     margin-right: 50px;
   }
+
+  @include md {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
 }
 
 .button--mail {
   width: 146px;
+
+  @include md {
+    align-self: flex-end;
+    width: 120px;
+  }
 }
 
 .button--mail:after {
@@ -35,6 +54,15 @@
   display: flex;
   justify-content: space-between;
   width: 451px;
+
+  @include lg {
+    justify-content: space-around;
+  }
+
+  @include md {
+    width: 420px;
+    justify-content: space-evenly;
+  }
 }
 
 .nav__link {

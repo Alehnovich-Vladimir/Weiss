@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-between;
 
+  @include sm {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
   .articles__button {
     max-width: 153px;
     align-self: center;
@@ -40,6 +46,18 @@
     max-width: 430px;
   }
 
+  @include lg {
+    padding-left: 15px;
+  }
+
+  @include md {
+    max-width: 350px;
+  }
+
+  @include sm {
+    text-align: center;
+  }
+
   .articles__title {
     font-size: $h2;
     line-height: 45px;
@@ -52,6 +70,10 @@
     line-height: 28px;
     color: $color_4;
     padding-bottom: 80px;
+
+    @include sm {
+      padding-bottom: 20px;
+    }
   }
 }
 
@@ -59,7 +81,15 @@
   padding-bottom: 323px;
 
   @include xl {
-    padding-bottom: 250px;
+    padding-bottom: 150px;
+  }
+
+  @include lg {
+    padding-bottom: 100px;
+  }
+
+  @include sm {
+    padding-bottom: 30px;
   }
 
   .articles__subtitle {
@@ -69,12 +99,29 @@
     font-weight: bold;
     line-height: 20px;
     color: $color_4;
+
+    @include lg {
+      padding-left: 15px;
+    }
+
+    @include sm {
+      padding-left: 150px;
+    }
   }
 }
 
 .articles__list {
   display: flex;
   justify-content: space-between;
+
+  @include md {
+    flex-direction: column;
+  }
+
+  @include sm {
+    align-items: center;
+    text-align: center;
+  }
 
   .article {
     display: flex;
@@ -84,6 +131,18 @@
 
     @include xl {
       max-width: 305px;
+    }
+
+    @include lg {
+      padding: 15px;
+    }
+
+    @include md {
+      max-width: 100%;
+    }
+
+    @include sm {
+      max-width: 80%;
     }
 
     .article__title {
@@ -110,6 +169,10 @@
       font-size: $link;
       line-height: 28px;
       color: $color_3;
+
+      @include sm {
+        align-self: center;
+      }
     }
   }
 }

@@ -1,6 +1,9 @@
 .hero__container {
   display: flex;
-  width: 100%;
+
+  @include md {
+    flex-direction: column;
+  }
 }
 
 .hero__info {
@@ -8,6 +11,22 @@
   flex-direction: column;
   padding-top: 100px;
   width: 50%;
+
+  @include xl {
+    justify-content: center;
+  }
+
+  @include lg {
+    justify-content: start;
+    width: 40%;
+  }
+
+  @include md {
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
   .hero__subtitle {
     padding-bottom: 15px;
@@ -24,6 +43,10 @@
     font-weight: bold;
     line-height: 45px;
     color: $color_2;
+
+    @include md {
+      text-align: center;
+    }
   }
   .hero__text {
     width: 427px;
@@ -63,20 +86,44 @@
       transform: rotate(-45deg);
     }
   }
-
-  @include xl {
-    width: 40%;
-    justify-content: center;
-  }
 }
 
 .hero__image {
   width: 50%;
   max-width: 593px;
   min-width: 320px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2), -50px 100px 0px #f7f8fa;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2), -30px 100px 0px #f7f8fa;
+}
 
-  @include xl {
-    width: 35%;
+@include xl {
+  .hero__image {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@include md {
+  .hero__image {
+    width: 100%;
+    text-align: center;
+    box-shadow: none;
+    img {
+      width: 90%;
+    }
+  }
+}
+
+@include sm {
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__image {
+    width: 100%;
+    img {
+      width: 80%;
+    }
   }
 }

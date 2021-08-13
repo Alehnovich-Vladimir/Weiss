@@ -14,8 +14,19 @@
   color: $color_1;
 
   @include xl {
-    width: 800px;
+    // width: 800px;
+    width: 95%;
     margin-bottom: 240px;
+  }
+
+  @include lg {
+    margin: 0 auto;
+    width: 76%;
+    margin-bottom: 150px;
+  }
+
+  @include md {
+    width: 70%;
   }
 }
 
@@ -24,7 +35,18 @@
   padding: 98px 0 74px 98px;
 
   @include xl {
+    max-width: 500px;
     padding: 68px 0 44px 68px;
+  }
+
+  @include lg {
+    max-width: 360px;
+    padding: 24px 0 12px 24px;
+  }
+
+  @include md {
+    max-width: 100%;
+    padding: 30px;
   }
 
   .history__subtitle {
@@ -47,6 +69,11 @@
     font-size: $text;
     line-height: 26px;
     padding-bottom: 56px;
+
+    @include md {
+      max-width: 100%;
+      padding-bottom: 36px;
+    }
   }
 
   .history__line:after {
@@ -95,7 +122,24 @@
 .history__image {
   position: absolute;
   top: 104px;
-  left: 540px;
+  right: -140px;
   min-width: 320px;
   filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.2));
+
+  @include xl {
+    right: -80px;
+  }
+
+  @include lg {
+    right: -30px;
+    img {
+      max-width: 380px;
+    }
+  }
+
+  @include md {
+    img {
+      display: none;
+    }
+  }
 }

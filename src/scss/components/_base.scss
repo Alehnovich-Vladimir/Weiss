@@ -18,6 +18,10 @@ html {
   line-height: 40px;
   color: $color_1;
   background: $color_3;
+
+  @include md {
+    padding: 0px 8px;
+  }
 }
 
 .container {

@@ -12,6 +12,14 @@
 
 .footer__logo {
   padding-top: 83px;
+
+  @include lg {
+    padding-top: 52px;
+  }
+
+  @include sm {
+    padding-top: 31px;
+  }
 }
 
 .footer__info {
@@ -28,6 +36,14 @@
     letter-spacing: 1.75px;
     text-transform: uppercase;
     padding: 64px 0 8px 0;
+
+    @include lg {
+      padding: 32px 0 4px 0;
+    }
+
+    @include sm {
+      padding: 16px 0 2px 0;
+    }
   }
   .footer__text {
     font-size: $text;
@@ -39,12 +55,24 @@
   max-width: 109px;
   margin-left: 145px;
 
+  @include md {
+    margin-left: 45px;
+  }
+
   .footer__title {
     padding: 64px 0 8px 0;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+
+    @include lg {
+      padding: 32px 0 4px 0;
+    }
+
+    @include sm {
+      padding: 16px 0 2px 0;
+    }
   }
   .footer__text {
     font-size: $text;
@@ -63,6 +91,20 @@
     height: 1px;
     opacity: 0.2;
   }
+
+  @include xl {
+    min-width: 960px;
+    padding-top: 42px;
+  }
+
+  @include lg {
+    min-width: 740px;
+    padding-top: 21px;
+  }
+
+  @include md {
+    min-width: 560px;
+  }
 }
 
 .footer__subtitle {
@@ -73,4 +115,14 @@
   line-height: 18px;
   color: $color_1;
   opacity: 0.5;
+
+  @include xl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  @include lg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
