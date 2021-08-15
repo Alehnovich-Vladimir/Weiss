@@ -59,6 +59,11 @@
     @include xl {
       width: 330px;
     }
+
+    @include sm {
+      width: 300px;
+      text-align: center;
+    }
   }
   .hero__button {
     width: 209px;

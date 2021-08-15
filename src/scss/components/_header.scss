@@ -60,8 +60,12 @@
   }
 
   @include md {
-    width: 420px;
     justify-content: space-evenly;
+  }
+
+  @include sm {
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
 
@@ -75,6 +79,7 @@
 .nav__link--active {
   color: $color_3;
   border-bottom: 2px solid $color_3;
+  width: 75px;
 }
 
 .down {
