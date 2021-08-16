@@ -41,13 +41,21 @@
 
   @include md {
     align-self: flex-end;
-    width: 120px;
+    width: 136px;
+  }
+
+  @include sm {
+    width: 126px;
   }
 }
 
 .button--mail:after {
   content: "\2709";
   padding-left: 20px;
+
+  @include sm {
+    padding-left: 10px;
+  }
 }
 
 .nav__list {
