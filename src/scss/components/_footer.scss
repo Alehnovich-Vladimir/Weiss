@@ -18,7 +18,18 @@
   }
 
   @include sm {
-    padding-top: 31px;
+    padding-top: 15px;
+  }
+}
+
+.footer__logo-item {
+  width: 100%;
+  img {
+    width: 100%;
+
+    @include sm {
+      width: 50%;
+    }
   }
 }
 
@@ -35,7 +46,7 @@
   }
 
   .footer__title {
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 18px;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -46,12 +57,17 @@
     }
 
     @include sm {
-      padding: 16px 0 2px 0;
+      font-size: 1.2rem;
+      padding: 8px 0 2px 0;
     }
   }
   .footer__text {
     font-size: $text;
     line-height: 26px;
+
+    @include sm {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -69,7 +85,7 @@
 
   .footer__title {
     padding: 64px 0 8px 0;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 18px;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -79,12 +95,17 @@
     }
 
     @include sm {
-      padding: 16px 0 2px 0;
+      font-size: 1.2rem;
+      padding: 8px 0 2px 0;
     }
   }
   .footer__text {
     font-size: $text;
     line-height: 26px;
+
+    @include sm {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -116,6 +137,7 @@
 
   @include sm {
     min-width: 500px;
+    padding-top: 5px;
   }
 }
 
@@ -123,7 +145,7 @@
   display: inline-block;
   margin-bottom: 40px;
   margin-top: 40px;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 18px;
   color: $color_white;
   opacity: 0.5;
@@ -136,5 +158,9 @@
   @include lg {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  @include sm {
+    font-size: 1.2rem;
   }
 }
