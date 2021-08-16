@@ -56,6 +56,10 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $color_light-blue;
+
+    @include sm {
+      font-size: 1rem;
+    }
   }
   .history__title {
     font-size: $h2;
@@ -63,6 +67,10 @@
     font-weight: bold;
     padding-top: 24px;
     padding-bottom: 24px;
+
+    @include sm {
+      font-size: 2rem;
+    }
   }
   .history__text {
     max-width: 422px;
@@ -73,6 +81,10 @@
     @include md {
       max-width: 100%;
       padding-bottom: 36px;
+    }
+
+    @include sm {
+      font-size: 1.2rem;
     }
   }
 
@@ -115,6 +127,10 @@
       background: $color_white;
       border-radius: 2px;
       transform: rotate(-45deg);
+    }
+
+    @include sm {
+      font-size: 1.2rem;
     }
   }
 }
