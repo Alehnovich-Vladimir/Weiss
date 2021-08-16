@@ -1,6 +1,6 @@
 .features {
   width: 100%;
-  background: $color_5;
+  background: $color_ultra-light-grey;
 }
 
 .features__container {
@@ -17,13 +17,13 @@
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 44px;
-    color: $color_2;
+    color: $color_dunkel-blau;
     padding-bottom: 16px;
   }
   .features__text {
     font-size: $text;
     line-height: 28px;
-    color: $color_4;
+    color: $color_light-blue;
   }
   @include xl {
     max-width: 340px;
@@ -85,7 +85,7 @@
   .feature__title {
     font-weight: bold;
     font-size: $h3;
-    color: $color_2;
+    color: $color_dunkel-blau;
     line-height: 30px;
     padding-bottom: 24px;
 
@@ -96,7 +96,7 @@
   .feature__text {
     font-size: $text;
     line-height: 28px;
-    color: $color_4;
+    color: $color_light-blue;
     padding-bottom: 24px;
 
     @include sm {
@@ -111,7 +111,7 @@
     font-weight: bold;
     font-size: $link;
     line-height: 28px;
-    color: $color_3;
+    color: $color_orange;
 
     &:before {
       content: "";
@@ -120,7 +120,7 @@
       right: 12px;
       width: 8px;
       height: 2px;
-      background: $color_3;
+      background: $color_orange;
       border-radius: 2px;
       transform: rotate(45deg);
     }
@@ -131,7 +131,7 @@
       right: 12px;
       width: 8px;
       height: 2px;
-      background: $color_3;
+      background: $color_orange;
       border-radius: 2px;
       transform: rotate(-45deg);
     }

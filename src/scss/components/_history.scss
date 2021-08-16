@@ -1,5 +1,5 @@
 .history {
-  background: $color_5;
+  background: $color_ultra-light-grey;
 }
 
 .history__container {
@@ -11,7 +11,7 @@
   max-width: 1009px;
   margin-bottom: 256px;
   background: #2d2d2d;
-  color: $color_1;
+  color: $color_white;
 
   @include xl {
     // width: 800px;
@@ -55,7 +55,7 @@
     line-height: 20px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: $color_4;
+    color: $color_light-blue;
   }
   .history__title {
     font-size: $h2;
@@ -79,7 +79,7 @@
   .history__line:after {
     display: block;
     content: "";
-    background-color: $color_1;
+    background-color: $color_white;
     height: 1px;
     opacity: 0.2;
     margin-bottom: 24px;
@@ -92,7 +92,7 @@
     font-weight: 500;
     font-size: $link;
     line-height: 28px;
-    color: $color_1;
+    color: $color_white;
 
     &:before {
       content: "";
@@ -101,7 +101,7 @@
       right: 12px;
       width: 8px;
       height: 2px;
-      background: $color_1;
+      background: $color_white;
       border-radius: 2px;
       transform: rotate(45deg);
     }
@@ -112,7 +112,7 @@
       right: 12px;
       width: 8px;
       height: 2px;
-      background: $color_1;
+      background: $color_white;
       border-radius: 2px;
       transform: rotate(-45deg);
     }

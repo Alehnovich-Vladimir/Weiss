@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
-  background: $color_2;
-  color: $color_1;
+  background: $color_dunkel-blau;
+  color: $color_white;
 }
 
 .footer__container {
@@ -95,7 +95,7 @@
   &:after {
     display: block;
     content: "";
-    background-color: $color_1;
+    background-color: $color_white;
     height: 1px;
     opacity: 0.2;
   }
@@ -125,7 +125,7 @@
   margin-top: 40px;
   font-size: 14px;
   line-height: 18px;
-  color: $color_1;
+  color: $color_white;
   opacity: 0.5;
 
   @include xl {

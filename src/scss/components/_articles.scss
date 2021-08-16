@@ -19,7 +19,7 @@
       right: 12px;
       width: 8px;
       height: 2px;
-      background: #ffffff;
+      background: $color_white;
       border-radius: 2px;
       transform: rotate(45deg);
     }
@@ -30,7 +30,7 @@
       right: 12px;
       width: 8px;
       height: 2px;
-      background: #ffffff;
+      background: $color_white;
       border-radius: 2px;
       transform: rotate(-45deg);
     }
@@ -64,12 +64,12 @@
     line-height: 45px;
     font-weight: bold;
     padding-bottom: 16px;
-    color: $color_2;
+    color: $color_dunkel-blau;
   }
   .articles__text {
     font-size: $text;
     line-height: 28px;
-    color: $color_4;
+    color: $color_light-blue;
     padding-bottom: 80px;
 
     @include sm {
@@ -100,7 +100,7 @@
     font-size: $sub;
     font-weight: bold;
     line-height: 20px;
-    color: $color_4;
+    color: $color_light-blue;
 
     @include lg {
       padding-left: 15px;
@@ -148,14 +148,14 @@
       font-weight: bold;
       font-size: $h3;
       line-height: 30px;
-      color: $color_2;
+      color: $color_dunkel-blau;
       padding-bottom: 20px;
     }
     .article__text {
       font-size: $text;
       font-weight: 500;
       line-height: 28px;
-      color: $color_4;
+      color: $color_light-blue;
       padding-bottom: 20px;
     }
     .article__link {
@@ -166,7 +166,7 @@
       font-weight: bold;
       font-size: $link;
       line-height: 28px;
-      color: $color_3;
+      color: $color_orange;
 
       @include sm {
         align-self: center;
@@ -183,7 +183,7 @@
   right: 12px;
   width: 8px;
   height: 2px;
-  background: $color_3;
+  background: $color_orange;
   border-radius: 2px;
   transform: rotate(45deg);
 }
@@ -194,7 +194,7 @@
   right: 12px;
   width: 8px;
   height: 2px;
-  background: $color_3;
+  background: $color_orange;
   border-radius: 2px;
   transform: rotate(-45deg);
 }

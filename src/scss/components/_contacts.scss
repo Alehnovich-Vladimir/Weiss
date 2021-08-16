@@ -1,5 +1,5 @@
 .contacts {
-  background: $color_5;
+  background: $color_ultra-light-grey;
 }
 
 .contacts__container {
@@ -29,7 +29,7 @@
     font-size: $sub;
     font-weight: bold;
     line-height: 20px;
-    color: $color_4;
+    color: $color_light-blue;
     padding-bottom: 16px;
 
     @include lg {
@@ -40,7 +40,7 @@
     font-size: $h2;
     font-weight: bold;
     line-height: 44px;
-    color: $color_2;
+    color: $color_dunkel-blau;
     padding-bottom: 24px;
 
     @include lg {
@@ -50,7 +50,7 @@
   .contacts__text {
     font-size: $text;
     line-height: 28px;
-    color: $color_4;
+    color: $color_light-blue;
     padding-bottom: 32px;
 
     @include lg {
@@ -64,7 +64,7 @@
     right: 12px;
     width: 8px;
     height: 2px;
-    background: #ffffff;
+    background: $color_white;
     border-radius: 2px;
     transform: rotate(45deg);
   }
@@ -76,7 +76,7 @@
     right: 12px;
     width: 8px;
     height: 2px;
-    background: #ffffff;
+    background: $color_white;
     border-radius: 2px;
     transform: rotate(-45deg);
   }

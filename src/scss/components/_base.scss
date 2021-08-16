@@ -16,8 +16,8 @@ html {
   letter-spacing: 1.2px;
   font-size: $text;
   line-height: 40px;
-  color: $color_1;
-  background: $color_3;
+  color: $color_white;
+  background: $color_orange;
 
   @include md {
     padding: 0px 8px;
