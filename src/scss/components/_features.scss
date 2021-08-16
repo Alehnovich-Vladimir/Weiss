@@ -88,12 +88,20 @@
     color: $color_2;
     line-height: 30px;
     padding-bottom: 24px;
+
+    @include sm {
+      text-align: center;
+    }
   }
   .feature__text {
     font-size: $text;
     line-height: 28px;
     color: $color_4;
     padding-bottom: 24px;
+
+    @include sm {
+      text-align: center;
+    }
   }
   .feature__link {
     position: relative;
@@ -126,6 +134,10 @@
       background: $color_3;
       border-radius: 2px;
       transform: rotate(-45deg);
+    }
+    @include sm {
+      align-self: center;
+      width: 190px;
     }
   }
 }
