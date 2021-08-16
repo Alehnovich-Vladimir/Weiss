@@ -1,2 +1,2 @@
 # Weiss
-https://alexvovan.github.io/Weiss/
+https://alehnovich-vladimir.github.io/Weiss/
