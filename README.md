@@ -3,7 +3,6 @@
 ### Technologies and tools
 * HTML5
 * SCSS
-* JavaScript
 * Parcel
 * Git
 * BEM
