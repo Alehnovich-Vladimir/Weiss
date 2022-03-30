@@ -4,7 +4,6 @@
 * HTML5
 * SCSS
 * Parcel
-* Git
 * BEM
 
-https://alehnovich-vladimir.github.io/Weiss/
+[Watch](https://alehnovich-vladimir.github.io/Weiss/)
